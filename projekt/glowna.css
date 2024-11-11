@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+.upcoming-races {
+    padding: 40px 20px;
+    background-color: #333;
+    text-align: center;
+    
+}
+
+.nadchodzace{
+    display: flex;
+    justify-content: center;
+}
+.race-card {
+    background-color: #444;
+    padding: 20px;
+    display: inline-block;
+    width: 200px;
+    flex-wrap: wrap;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trzy kolumny o równych szerokościach */
+    gap: 20px; /* Odstęp między kartami wyścigów */
+    margin: 20px 0;
+    max-width: 700px; /* Maksymalna szerokość całej siatki */
+    width: 100%; /* Dopasowanie do szerokości kontenera */
+}
+
+.race {
+    width: 200px; /* Szerokość karty wyścigu */
+    padding: 10px;
+    border: 1px solid #ccc; /* Dodanie obramowania */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodanie cienia */
+    background-color: #444;
+}
+
+.race-button {
+    background-color: #e50914;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    list-style-type: none;
+    margin: 0 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+footer {
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+    color: #fff;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+}
